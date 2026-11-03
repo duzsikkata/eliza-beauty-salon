@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://grand-rugelach-823f48.netlify.app/sitemap.xml

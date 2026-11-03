@@ -20,6 +20,14 @@ A tartalmi forrás a `szovegek.md`; a megjelenést a `dist/style.css`, az intera
 - Az időpontkérő a felhasználó levelezőprogramjában készít elő e-mailt; nincs szerveroldali üzenetküldés vagy adattárolás.
 - A hírlevélküldő és a letölthető Arcápolási Kisokos nincs bekötve.
 - A telefon és az e-mail a kapott anyagban szereplő mintaadat. Éles használat előtt cserélendők, az adatkezelési tájékoztató véglegesítendő.
-- A fotók külső Unsplash-forrásról, a betűtípusok Google Fonts szolgáltatásból töltődnek be.
+- A fotók helyi WebP-fájlokként töltődnek be, 480, 800 és 1200 pixel szélességű változatokból. Az eredeti stockfotók forrása az Unsplash; a betűtípusok Google Fonts szolgáltatásból töltődnek be.
+
+## SEO és nyilvános tárhely
+
+A nyilvános weboldal: https://grand-rugelach-823f48.netlify.app/
+
+Az oldalankénti címeket, leírásokat és canonical URL-eket a `seo-config.cjs` tartalmazza. A `generate.cjs` hozza létre a HTML-fájlokat, a `robots.txt` és `sitemap.xml` fájlokat is. A nyitóképek kiemelt prioritással, a további képek késleltetett betöltéssel jelennek meg. A képek `srcset`, `sizes`, `width` és `height` attribútumokat kapnak.
+
+A Netlify-projekt jelenleg közvetlen ZIP-feltöltéssel frissül; a GitHub-módosítások önmagukban nem indítanak automatikus Netlify-telepítést. A `netlify.toml` előkészíti a későbbi Git-alapú telepítést.
 
 A `.openai/hosting.json` a meglévő privát Sites-telepítés konfigurációja.
