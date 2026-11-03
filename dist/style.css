@@ -6,4 +6,5 @@
 @media(max-width:720px){.benefit-grid{grid-template-columns:1fr;gap:12px;margin-top:24px}.benefit h3{font-size:26px}}
 .process-step h3{font-size:25px;line-height:1.7;border-top:1px solid var(--line);padding-top:24px;margin:28px 0 8px}.diagnosis-title{white-space:nowrap}.footer-grid .footer-heading{font-family:Jost,sans-serif;font-size:13px;letter-spacing:normal;line-height:1.08;margin:0 0 24px}
 @media(max-width:720px){.process-step h3{margin-top:12px}.footer-grid .footer-heading{margin-bottom:12px}}
+.button:disabled{opacity:.65;cursor:wait}.status.is-error{color:#8e3440}.status:not(:empty){padding:16px;border:1px solid var(--line);background:var(--cream)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
