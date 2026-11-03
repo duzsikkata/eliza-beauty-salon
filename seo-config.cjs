@@ -2,6 +2,7 @@ const origin = 'https://grand-rugelach-823f48.netlify.app';
 module.exports = {
   origin,
   pages: {
+    'feliratkozas-koszonjuk.html': {path:'/feliratkozas-koszonjuk',title:'Köszönöm a feliratkozást! | Eliza Beauty Salon',description:'A feliratkozási kérésed beérkezett az Eliza Beauty Salonhoz.',noindex:true},
     'koszonjuk.html': {path:'/koszonjuk',title:'Köszönöm az időpontkérésed! | Eliza Beauty Salon',description:'Az időpontkérésed sikeresen beérkezett az Eliza Beauty Salonhoz.',noindex:true},
     'index.html': {
       path: '/',

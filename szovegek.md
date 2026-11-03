@@ -84,8 +84,8 @@ A **Kicker** a cím fölötti kis felirat.
 
 ### Hírlevél-feliratkozás
 
-- **Cím:** Iratkozz fel és töltsd le az Arcápolási Kisokost!
-- **Szöveg:** Szeretnéd tudni, hogyan ápold a bőrödet úgy, hogy az hosszú távon egészséges és ragyogó maradjon? Iratkozz fel a hírlevélre, és ajándékba megkapod az Arcápolási Kisokost, amely tele van hasznos tippekkel és szakértői tanácsokkal.
+- **Cím:** Feliratkozás az Arcápolási Kisokoshoz
+- **Szöveg:** Szeretnél többet tudni a mindennapi bőrápolásról? Add meg a neved és az e-mail címed, és iratkozz fel az Arcápolási Kisokoshoz kapcsolódó értesítésekre és bőrápolási hírlevelekre.
 - **Űrlap:** Teljes név · E-mail cím · Jelölőnégyzet: Elolvastam és elfogadom az adatvédelmi nyilatkozatot.
 - **Gomb:** Kérem az ingyenes kisokost
 
